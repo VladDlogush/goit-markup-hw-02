@@ -1,0 +1,235 @@
+:root {
+  /* Fonts */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Font weight */
+  --regular-weight: 400;
+  --medium-weight: 500;
+  --bold-weight: 700;
+
+  /* Colors */
+  --cloud-color: #f4f4fd;
+  --primary-brand-color: #4d5ae5;
+  --navy-blue-color: #2e2f42;
+  --grey-color: #2e2f42b2;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --white-color: #ffffff;
+  --success-color: #31d0aa;
+  --modal-bg-color: #fcfcfc;
+  --active-bg-color: #404bbf;
+
+  /* Fonts Size */
+  --small-size: 12px;
+  --medium-size: 16px;
+  --large-size: 20px;
+  --xLarge-size: 36px;
+  --xxLarge-size: 56px;
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+body {
+  font-family: var(--main-font);
+  font-size: var(--medium-size);
+  font-weight: var(--regular-weight);
+  color: var(--cloud-color);
+  line-height: 1.5;
+}
+
+/* Reset styles start */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+/* Reset styles end */
+
+/**
+  |============================
+  | Main page
+  |============================
+  | Header styles
+  |============================
+*/
+
+.background {
+  background-color: var(--white-color);
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.034em;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  color: var(--navy-blue-color);
+}
+
+.header-logo-accent {
+  color: var(--primary-brand-color);
+}
+
+.header-link {
+  color: var(--navy-blue-color);
+  font-weight: var(--medium-weight);
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--active-bg-color);
+  border-bottom: 2px solid var(--active-bg-color);
+  border-radius: 2px;
+}
+
+.contact:hover,
+.contact:focus {
+  border-bottom: none;
+}
+
+/**
+  |============================
+  | First Container styles
+  |============================
+*/
+.second-background {
+  background-color: var(--navy-blue-color);
+}
+
+.first-container-title {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: var(--bold-weight);
+  line-height: 1.07;
+  letter-spacing: 0.07em;
+}
+
+.first-container-btn {
+  font-family: inherit;
+  border-radius: 4px;
+  background-color: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white-color);
+  font-size: inherit;
+  font-weight: var(--medium-weight);
+  line-height: inherit;
+  letter-spacing: 0.04em;
+}
+
+.first-container-btn:hover,
+.first-container-btn:focus {
+  background-color: var(--active-bg-color);
+}
+
+/**
+  |============================
+  | Second Container styles
+  |============================
+*/
+
+.title {
+  color: var(--navy-blue-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: var(--bold-weight);
+  line-height: 1.11;
+  letter-spacing: 0.045em;
+  text-transform: capitalize;
+}
+
+.item-title {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+
+.text {
+  color: var(--slate-color);
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Fourth Container styles
+  |============================
+*/
+
+.fourth-container {
+  background-color: var(--cloud-color);
+}
+
+.name,
+.specialty {
+  text-align: center;
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+
+.footer-logo {
+  color: currentColor;
+}
+
+.footer-text {
+  color: currentColor;
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Portfolio page
+  |============================
+  | Categories styles
+  |============================
+*/
+
+.categories-title {
+  display: none;
+}
+.categories-container-btn {
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+  background: var(--cloud-color);
+  color: var(--primary-brand-color);
+  text-align: center;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.categories-container-btn:hover,
+.categories-container-btn:focus {
+  background-color: var(--active-bg-color);
+  color: var(--white-color);
+}
