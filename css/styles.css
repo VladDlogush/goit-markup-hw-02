@@ -16,7 +16,7 @@
   --slate-color: #434455;
   --light-slate-color: #8e8f99;
   --accent-color: #e7e9fc;
-  --white-color: #ffffff;
+  --white-color: #FFFFFF;
   --success-color: #31d0aa;
   --modal-bg-color: #fcfcfc;
   --active-bg-color: #404bbf;
@@ -88,6 +88,10 @@ body {
   font-size: var(--medium-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.contact {
+  color: var(--navy-blue-color);
 }
 
 .header-link:hover,
