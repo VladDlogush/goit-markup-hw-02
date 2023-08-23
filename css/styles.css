@@ -39,7 +39,7 @@ body {
   font-family: var(--main-font);
   font-size: var(--medium-size);
   font-weight: var(--regular-weight);
-  background-color: var(---white-color);
+  background-color: var(--white-color);
   color: var(--slate-color);
   line-height: 1.5;
 }
@@ -83,15 +83,11 @@ body {
 }
 
 .header-link {
-  color: var(--slate-color);
+  color: var(--navy-blue-color);
   font-weight: var(--medium-weight);
   font-size: var(--medium-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.contact {
-  color: var(--navy-blue-color);
 }
 
 .header-link:hover,
@@ -102,6 +98,11 @@ body {
 .header-contact {
   font-style: normal;
 }
+
+.contact {
+  color: var(--slate-color);
+}
+  
 
 /**
   |============================
